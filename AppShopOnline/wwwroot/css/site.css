@@ -1,0 +1,162 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+/*//shopping cart*/
+.cart {
+    border: 5px solid #f3f3f3;
+    padding: 20px;
+    margin-left: 80px;
+}
+.box-cart {
+    display: flex;
+}
+.box-cart-item-box {
+    border: 3px solid #f3f3f3;
+    box-shadow: initial;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+img.box-cart-item-img {
+    /*padding: 20px;*/
+    margin-top: 12px;
+    width: 30% !important;
+    height: 20%;
+}
+
+.flex-column {
+    margin-left: 20px;
+    padding-top: 0px;
+}
+
+.cart .box-cart-item-box .flex-column .title {
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.cart .box-cart-item-box .flex-column .box-cart-item-btn {
+    width: 30px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+    .cart .box-cart-item-box .flex-column .box-cart-item-btn button.btn {
+        width: 50px;
+        padding: 10px;
+        border: 2px solid #2c2e53;
+        height: 35px;
+    }
+
+    .cart .box-cart-item-box .flex-column .box-cart-item-btn button.qty_btn {
+        margin-left: 5px;
+    }
+
+    .cart .box-cart-item-box .flex-column .box-cart-item-btn input[type] {
+        width: 100px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 5px;
+        border: 2px solid #131317
+    }
+
+    .cart .box-cart-item-box .flex-column .box-cart-item-btn .qty_btn .qty_input {
+        margin-left: 5px;
+    }
+
+.cart .box-cart .box-cart-item-box .box-cart-border-bottom .box-cart-item .flex-columnp p {
+    margin-top: 20px;
+}
+
+span {
+    color: #e394aa;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box-cart-bill {
+    margin-left: 20px;
+    padding-left: 10px;
+    width: 100%;
+    height: 300%;
+    border: 3px solid #f3f3f3;
+}
+
+    .box-cart-bill .group-btn {
+        margin: 10px 0 0 5px;
+    }
+
+    .box-cart-bill .cart-box .btn {
+        border: 2px solid #2c2e53;
+    }
+
+img {
+    vertical-align: middle;
+}
+
+footer {
+    position: relative !important;
+}
+
+.box-cart-item-btn {
+    width: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button, input {
+    overflow: visible;
+    width: 10px;
+    border: 1px solid #f3f3f3;
+}
+
+.btn-action {
+    margin: 20px 10px 0 0;
+}
+
+    .btn-action .btn {
+        border: 2px solid #337609;
+        margin: 5px;
+        width: 100px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #bea272;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
